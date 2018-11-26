@@ -1,0 +1,31 @@
+{
+	"authHost": "https://web.local",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": null,
+	"port": "6379",
+	"protocol": "https",
+	"socketio": {},
+	"sslCertPath": "C:/xampp/apache/conf/ssl.crt/server.crt",
+	"sslKeyPath": "C:/xampp/apache/conf/ssl.key/server.key",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
